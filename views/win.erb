@@ -1,0 +1,17 @@
+<%=message%>
+
+<table>
+	<tr>
+		<td class="br"><%=squares[0]%></td><td class="br"><%=squares[1]%></td><td class="b"><%=squares[2]%></td>
+	</tr><tr>
+		<td class="br"><%=squares[3]%></td><td class="br"><%=squares[4]%></td><td class="b"><%=squares[5]%></td>
+	</tr><tr>
+		<td class="r"><%=squares[6]%></td><td class="r"><%=squares[7]%></td><td><%=squares[8]%></td>
+	</tr>
+</table>
+
+ 
+<form action="/new_game" method="POST"> 
+ 
+Would you like to play again ? y or n :<br><br><input type="text" name="selection">	<br> <br>
+</form>
